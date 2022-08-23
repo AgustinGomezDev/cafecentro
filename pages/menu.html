@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/02eb3a3b5e.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../assets/favicon.png" type="image/png">
     <link rel="stylesheet" href="../css/style.css">
@@ -33,7 +34,7 @@
             <h2 class="title__products">Our menu</h2>
             <div class="products-menu">
                 <h3>Bakery</h3>
-                <div class="products-menu__bakery">
+                <div class="products-menu__bakery" data-aos="fade-up">
                     <div class="product__bakery">
                         <img class="bakery__img" src="../assets/bag.png" alt="Producto">
                         <p class="bakery__name">Croissant</p>
@@ -56,7 +57,7 @@
                     </div>
                 </div>
                 <h3>Coffee</h3>
-                <div class="products-menu__coffee">
+                <div class="products-menu__coffee" data-aos="fade-up">
                     <div class="product__coffee">
                         <img class="coffee__img" src="../assets/cup.png" alt="Producto">
                         <p class="coffee__name">Latte Macchiato</p>
@@ -94,7 +95,7 @@
                     </div>
                 </div>
                 <h3>Hot drinks</h3>
-                <div class="products-menu__hot-drink">
+                <div class="products-menu__hot-drink" data-aos="fade-up">
                     <div class="product__hot-drink">
                         <img class="hot-drink__img" src="../assets/cup.png" alt="Producto">
                         <p class="hot-drink__name">Chocolate</p>
@@ -140,5 +141,9 @@
             </div>
         </footer>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

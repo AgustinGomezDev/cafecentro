@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/02eb3a3b5e.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="assets/favicon.png" type="image/png">
     <link rel="stylesheet" href="css/style.css">
@@ -30,7 +31,7 @@
             </nav>
         </header>
         <main class="main">
-            <div class="hero">
+            <div class="hero" data-aos="fade-in">
                 <div class="hero__text">
                     <h1 class="hero__title">CaféCentro</h1>
                     <h2 class="hero__subtitle">Everyone should believe in something. I believe I will have another coffee.</h2>
@@ -39,11 +40,11 @@
                 <img class="hero__img" src="assets/hero.jpg" alt="Image hero">
             </div>
             <div class="cafe-info">
-                <div class="cafe-info__location">
+                <div class="cafe-info__location" data-aos="fade-right">
                     <h3 class="location__title">Location</h3>
                     <iframe class="location__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.477605711808!2d-75.17644838478137!3d39.95307329163137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c63702adb8f9%3A0xd3f5addd9927e868!2s2001-2099%20Ludlow%20St%2C%20Philadelphia%2C%20PA%2019103%2C%20EE.%20UU.!5e0!3m2!1ses-419!2suy!4v1659022968716!5m2!1ses-419!2suy" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="cafe-info__schedule">
+                <div class="cafe-info__schedule" data-aos="fade-left">
                     <h3 class="schedule__title">Schedule</h3>
                     <table class="schedule__table">
                         <thead>
@@ -85,7 +86,7 @@
                     </table>
                 </div>
             </div>
-            <div class="featured-products">
+            <div class="featured-products" data-aos="fade-up">
                 <h3 class="featured-products__title">Featured products</h3>
                 <div class="products">
                     <div class="products__item">
@@ -106,7 +107,7 @@
                     </div>
                 </div>
             </div>
-            <div class="testimonials">
+            <div class="testimonials" data-aos="fade-up">
                 <h3 class="testimonials__title">Testimonials</h3>
                 <div class="testimonials__grid">
                     <div class="testimonials__item">
@@ -195,5 +196,9 @@
             </div>
         </footer>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

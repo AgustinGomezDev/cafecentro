@@ -11,9 +11,10 @@ The name and logo of the company were created by me, as well as its color palett
 Take a look at the webiste [here](https://agustingomezdev.github.io/coderhouse-web-development-course/).
 
 ### Built with
+- Figma
 - HTML
 - CSS
-- Figma
+- AOS library ([info](https://github.com/michalsnik/aos)).
 
 ### Contact 
 You can reach me at agustingomezdev@gmail.com

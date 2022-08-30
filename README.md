@@ -14,7 +14,8 @@ Take a look at the webiste [here](https://agustingomezdev.github.io/coderhouse-w
 - Figma
 - HTML
 - CSS
-- AOS library ([info](https://github.com/michalsnik/aos)).
+- [AOS library](https://github.com/michalsnik/aos).
+- [Bootstrap](https://getbootstrap.com/) ([repo](https://github.com/AgustinGomezDev/coderhouse-web-development-course-bootstrap)).
 
 ### Contact 
 You can reach me at agustingomezdev@gmail.com

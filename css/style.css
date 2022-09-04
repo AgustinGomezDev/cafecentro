@@ -437,3 +437,30 @@
           transition: transform 0.2s ease-in-out; }
           .grid-contact .main .contact-us .contact-us__form .form__input:hover {
             transform: translateY(-1.5px); }
+
+.grid-about-us {
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto auto; }
+  .grid-about-us .main {
+    grid-area: main; }
+    .grid-about-us .main .title__about-us {
+      font-size: 32px;
+      text-align: center;
+      font-weight: 900;
+      margin-top: 20px; }
+    .grid-about-us .main .about-us {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px; }
+      .grid-about-us .main .about-us .about-us__text {
+        text-align: justify;
+        width: 350px; }
+        .grid-about-us .main .about-us .about-us__text p {
+          margin: 10px 0; }
+      .grid-about-us .main .about-us .about-us__image {
+        width: 350px; }
+        .grid-about-us .main .about-us .about-us__image img {
+          width: 100%; }

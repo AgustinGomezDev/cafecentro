@@ -379,3 +379,61 @@
         transition: transform 0.2s ease-in-out; }
         .grid-reserve .main .form .form__input:hover {
           transform: translateY(-1.5px); }
+
+.grid-contact {
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto auto; }
+  .grid-contact .main {
+    grid-area: main; }
+    .grid-contact .main .title__contact {
+      font-size: 32px;
+      text-align: center;
+      font-weight: 900;
+      margin-top: 20px; }
+    .grid-contact .main .contact-us {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px; }
+      .grid-contact .main .contact-us .contact-us__image {
+        width: 350px; }
+        .grid-contact .main .contact-us .contact-us__image img {
+          width: 100%; }
+      .grid-contact .main .contact-us .contact-us__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8px; }
+        .grid-contact .main .contact-us .contact-us__form .form__field label {
+          display: block;
+          font-weight: 600;
+          color: #967259;
+          font-size: 18px;
+          text-align: center; }
+        .grid-contact .main .contact-us .contact-us__form .form__field input {
+          display: block;
+          width: 100%;
+          font-weight: 500;
+          font-size: 15px;
+          padding: 5px; }
+        .grid-contact .main .contact-us .contact-us__form .form__field textarea {
+          display: block;
+          padding: 5px;
+          font-size: 15px; }
+        .grid-contact .main .contact-us .contact-us__form .form__input {
+          display: block;
+          width: 100px;
+          color: #fff;
+          font-size: 15px;
+          padding: 10px;
+          margin-bottom: 10px;
+          font-weight: 600;
+          background: #967259;
+          cursor: pointer;
+          border: none;
+          transition: transform 0.2s ease-in-out; }
+          .grid-contact .main .contact-us .contact-us__form .form__input:hover {
+            transform: translateY(-1.5px); }

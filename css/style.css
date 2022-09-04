@@ -82,6 +82,9 @@
         .footer .footer__copy .footer-text a:hover {
           color: #967259; }
 
+.fix-footer {
+  margin-bottom: 135px; }
+
 .grid-index {
   display: grid;
   grid-template-areas: "header" "main" "footer";

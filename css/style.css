@@ -244,3 +244,85 @@
             font-weight: 600; }
           .grid-index .main .testimonials .testimonials__grid .testimonials__item .testimonials__text, .grid-index .main .testimonials .testimonials__grid .testimonials__item .testimonials__stars {
             color: #fff; }
+
+.grid-menu {
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto auto; }
+  .grid-menu .main {
+    grid-area: main; }
+    .grid-menu .main .title__products {
+      font-size: 32px;
+      text-align: center;
+      font-weight: 900;
+      margin-top: 20px; }
+    .grid-menu .main .products-menu {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0; }
+      .grid-menu .main .products-menu h3 {
+        font-size: 25px;
+        font-weight: 700;
+        margin: 10px 0; }
+      .grid-menu .main .products-menu .products-menu__bakery {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px; }
+        .grid-menu .main .products-menu .products-menu__bakery .product__bakery {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          .grid-menu .main .products-menu .products-menu__bakery .product__bakery .bakery__img {
+            width: 200px;
+            object-fit: cover; }
+          .grid-menu .main .products-menu .products-menu__bakery .product__bakery .bakery__name {
+            font-weight: 500; }
+          .grid-menu .main .products-menu .products-menu__bakery .product__bakery .bakery__price {
+            font-weight: 700;
+            color: #967259; }
+      .grid-menu .main .products-menu .products-menu__coffee {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px; }
+        .grid-menu .main .products-menu .products-menu__coffee .product__coffee {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          .grid-menu .main .products-menu .products-menu__coffee .product__coffee .coffee__img {
+            width: 250px; }
+          .grid-menu .main .products-menu .products-menu__coffee .product__coffee .coffee__name {
+            font-weight: 500; }
+          .grid-menu .main .products-menu .products-menu__coffee .product__coffee .coffee__price {
+            font-weight: 700;
+            color: #967259; }
+      .grid-menu .main .products-menu .products-menu__hot-drink {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px; }
+        .grid-menu .main .products-menu .products-menu__hot-drink .product__hot-drink {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          .grid-menu .main .products-menu .products-menu__hot-drink .product__hot-drink .hot-drink__img {
+            width: 250px; }
+          .grid-menu .main .products-menu .products-menu__hot-drink .product__hot-drink .hot-drink__name {
+            font-weight: 500; }
+          .grid-menu .main .products-menu .products-menu__hot-drink .product__hot-drink .hot-drink__price {
+            font-weight: 700;
+            color: #967259; }

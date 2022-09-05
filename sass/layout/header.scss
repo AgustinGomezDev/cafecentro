@@ -48,3 +48,18 @@
 
     }
 }
+
+// 768px
+@media screen and(max-width: $tablet){
+    .header{
+        nav{
+            .header__menu{
+                display: block;
+            }
+
+            .header__navbar{
+                display: none;
+            }   
+        }
+    }
+}

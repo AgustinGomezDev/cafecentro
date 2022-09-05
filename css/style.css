@@ -37,6 +37,12 @@
       font-weight: 800;
       color: #967259; }
 
+@media screen and (max-width: 768px) {
+  .header nav .header__menu {
+    display: block; }
+  .header nav .header__navbar {
+    display: none; } }
+
 .footer {
   background-color: #141414; }
   .footer .footer__info {

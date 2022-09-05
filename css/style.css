@@ -494,6 +494,10 @@
           .grid-contact .main .contact-us .contact-us__form .form__input:hover {
             transform: translateY(-1.5px); }
 
+@media screen and (max-width: 768px) {
+  .grid-contact .main .contact-us .contact-us__image {
+    display: none; } }
+
 .grid-about-us {
   display: grid;
   grid-template-areas: "header" "main" "footer";

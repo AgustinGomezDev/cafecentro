@@ -79,7 +79,19 @@
             }
             
         }
-        
-        
+
+    }
+}
+
+// 768px
+@media screen and(max-width: $tablet){
+    .grid-contact{
+        .main{
+            .contact-us{
+                .contact-us__image{
+                    display: none;
+                }
+            }
+        }
     }
 }

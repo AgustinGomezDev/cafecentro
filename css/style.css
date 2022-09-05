@@ -524,3 +524,7 @@
         width: 350px; }
         .grid-about-us .main .about-us .about-us__image img {
           width: 100%; }
+
+@media screen and (max-width: 768px) {
+  .grid-about-us .main .about-us .about-us__image {
+    display: none; } }

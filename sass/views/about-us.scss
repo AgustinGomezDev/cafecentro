@@ -39,3 +39,16 @@
         }
     }
 }
+
+// 768px
+@media screen and(max-width: $tablet){
+    .grid-about-us{
+        .main{
+            .about-us{
+                .about-us__image{
+                    display: none;
+                }
+            }
+        }
+    }
+}

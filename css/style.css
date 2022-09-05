@@ -248,6 +248,51 @@
           .grid-index .main .testimonials .testimonials__grid .testimonials__item .testimonials__text, .grid-index .main .testimonials .testimonials__grid .testimonials__item .testimonials__stars {
             color: #fff; }
 
+@media screen and (max-width: 1280px) {
+  .grid-index .main .cafe-info .cafe-info__location, .grid-index .main .cafe-info .cafe-info__schedule {
+    width: 550px;
+    height: 400px; }
+  .grid-index .main .featured-products .products .products__item {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    gap: 10px; }
+    .grid-index .main .featured-products .products .products__item .products__img {
+      width: 200px; }
+  .grid-index .main .testimonials .testimonials__grid .testimonials__item {
+    width: 250px;
+    height: 450px; } }
+
+@media screen and (max-width: 768px) {
+  .grid-index .main .cafe-info {
+    flex-direction: column;
+    align-items: center; }
+  .grid-index .main .featured-products .products {
+    grid-template-columns: repeat(2, 1fr); }
+  .grid-index .main .testimonials .testimonials__grid {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media screen and (max-width: 420px) {
+  .grid-index .main .hero .hero__text .hero__title {
+    font-size: 30px; }
+  .grid-index .main .hero .hero__text .hero__subtitle {
+    font-size: 15px; }
+  .grid-index .main .cafe-info .cafe-info__location, .grid-index .main .cafe-info .cafe-info__schedule {
+    width: 250px;
+    height: 500px; }
+  .grid-index .main .featured-products .products {
+    grid-template-columns: 1fr; }
+    .grid-index .main .featured-products .products .products__item {
+      width: 250px;
+      height: 250px;
+      padding: 30px;
+      gap: 10px; }
+  .grid-index .main .testimonials .testimonials__grid {
+    grid-template-columns: 1fr; }
+    .grid-index .main .testimonials .testimonials__grid .testimonials__item {
+      width: 250px;
+      height: 450px; } }
+
 .grid-menu {
   display: grid;
   grid-template-areas: "header" "main" "footer";

@@ -436,6 +436,13 @@
         .grid-reserve .main .form .form__input:hover {
           transform: translateY(-1.5px); }
 
+.form-style, .grid-contact .main .contact-us .contact-us__form .form__field input, .grid-contact .main .contact-us .contact-us__form .form__input {
+  display: block;
+  width: 100%;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 5px; }
+
 .grid-contact {
   display: grid;
   grid-template-areas: "header" "main" "footer";
@@ -469,21 +476,12 @@
           color: #967259;
           font-size: 18px;
           text-align: center; }
-        .grid-contact .main .contact-us .contact-us__form .form__field input {
-          display: block;
-          width: 100%;
-          font-weight: 500;
-          font-size: 15px;
-          padding: 5px; }
         .grid-contact .main .contact-us .contact-us__form .form__field textarea {
           display: block;
           padding: 5px;
           font-size: 15px; }
         .grid-contact .main .contact-us .contact-us__form .form__input {
-          display: block;
-          width: 100px;
           color: #fff;
-          font-size: 15px;
           padding: 10px;
           margin-bottom: 10px;
           font-weight: 600;

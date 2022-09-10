@@ -84,7 +84,7 @@
 }
 
 // 768px
-@media screen and(max-width: $tablet){
+@media screen and(max-width: map-get($breakpoints, tablet)){
     .grid-contact{
         .main{
             .contact-us{

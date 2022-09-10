@@ -50,7 +50,7 @@
 }
 
 // 768px
-@media screen and(max-width: $tablet){
+@media screen and(max-width: map-get($breakpoints, tablet)){
     .header{
         nav{
             .header__menu{

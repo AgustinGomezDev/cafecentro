@@ -227,7 +227,7 @@
 }
 
 // 1280px
-@media screen and(max-width: $desktop){
+@media screen and(max-width: map-get($breakpoints, desktop)){
     .grid-index{
         .main{
             .cafe-info{
@@ -265,7 +265,7 @@
 }
 
 // 768px
-@media screen and(max-width: $tablet){
+@media screen and(max-width: map-get($breakpoints, tablet)){
     .grid-index{
         .main{
             .cafe-info{
@@ -289,7 +289,7 @@
 }
 
 // 420px
-@media screen and(max-width: $mobile){
+@media screen and(max-width: map-get($breakpoints, mobile)){
     .grid-index{
         .main{
             .hero{

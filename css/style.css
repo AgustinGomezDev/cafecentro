@@ -129,19 +129,19 @@
           font-weight: 600;
           font-size: 25px; }
       .grid-index .main .hero .hero__overlay {
+        width: 100%;
+        height: 100%;
         grid-area: hero__overlay;
         grid-column: 1/2;
         grid-row: 1/4;
-        width: 100%;
-        height: 100%;
         background-color: rgba(0, 0, 0, 0.5);
         z-index: 50; }
       .grid-index .main .hero .hero__img {
+        width: 100%;
+        height: 100%;
         grid-area: hero__img;
         grid-column: 1/2;
         grid-row: 1/4;
-        width: 100%;
-        height: 100%;
         object-fit: cover;
         z-index: 1; }
     .grid-index .main .cafe-info {

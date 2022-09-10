@@ -1,0 +1,11 @@
+@mixin grid-container{
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+}
+
+@mixin width-height($w, $h){
+    width: $w;
+    height: $h;
+}

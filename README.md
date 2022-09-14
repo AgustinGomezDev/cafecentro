@@ -15,7 +15,7 @@ Take a look at the webiste [here](https://agustingomezdev.github.io/cafecentro/)
 - HTML
 - CSS
 - [AOS library](https://github.com/michalsnik/aos).
-- [Bootstrap](https://getbootstrap.com/) ([repo](https://agustingomezdev.github.io/cafecentro-bs/)).
+- [Bootstrap](https://getbootstrap.com/) ([repo](https://github.com/AgustinGomezDev/cafecentro-bs)).
 - [Sass](https://sass-lang.com/).
 
 ### Contact 
